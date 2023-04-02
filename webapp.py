@@ -5,7 +5,7 @@ def main():
     # ダウンロードボタンを作成する
     download_button = st.download_button(
         label='Download File',
-        data='dist.zip',
+        data='https://esg-ev.s3.ap-northeast-1.amazonaws.com/dist.zip',
         file_name='dist.zip'
     )
 
